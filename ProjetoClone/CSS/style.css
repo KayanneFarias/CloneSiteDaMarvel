@@ -1,1 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;600;700;800;900&display=swap');
 
+:root{
+    font-size: 62.5%;
+}
+
+#imageLogo{
+    width: 15rem;
+    height: 15rem;
+}
+
+body{
+    font-family: Roboto Condensed;
+    margin: 0px;
+    padding:0px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #202020;
+    
+}
+
+.navBarDiv_higher{
+    display: flex;
+    height: 52px;
+    border-bottom: 1px solid #393939;
+    padding: 0 20px;
+    
+}
+
+.navBarParagraph{
+    font-weight: 800;
+    font-size: 13px;
+}
+
+.divtwo{
+    display: flex;
+    border-left: 1px solid #393939;
+    width: 15rem;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.divThree{
+    display: flex;
+    border-left: 1px solid #393939;
+    justify-content: center;
+    align-items: center;
+    width: 74rem; 
+}
+
+.divFour{
+    border: 1px solid #393939;
+    border-top: none;
+    border-bottom: none;
+    display: flex;
+    width: 15rem;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+}
+
+
+.divFive{
+    display: flex;
+    border-right: 1px solid #393939;
+    width: 5rem ;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBotton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 40px;
+    text-align: center;
+
+    padding: 0 160px;
+
+}
+
+.lowerParagraph{
+    
+    text-align: center;
+    font-weight: 800;
+    padding: 0 10px;
+    margin: 0 auto;
+    cursor: pointer;
+    list-style: none;
+}
