@@ -29,6 +29,7 @@ body{
     height: 52px;
     border-bottom: 1px solid #393939;
     padding: 0 20px;
+    letter-spacing: 1px;
     
 }
 
@@ -52,7 +53,7 @@ body{
     border-left: 1px solid #393939;
     justify-content: center;
     align-items: center;
-    width: 74rem; 
+    width: 87rem; 
 }
 
 .divFour{
@@ -91,11 +92,13 @@ body{
 }
 
 .lowerParagraph{
-    
+    letter-spacing: 1px;
+    font-size: 12px;
     text-align: center;
     font-weight: 800;
-    padding: 0 10px;
+    padding: 0 5px;
     margin: 0 auto;
     cursor: pointer;
     list-style: none;
 }
+
